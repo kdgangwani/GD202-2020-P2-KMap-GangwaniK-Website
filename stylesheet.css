@@ -1,0 +1,212 @@
+html {
+  box-sizing: border-box;
+}
+
+#mainbg {
+		background-image: url(background-01.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#overview {
+    background-image: url(page%20background-01.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
+#active {
+    color:#481e32;
+}
+
+a {
+    text-decoration: none;
+    color: #E74F90;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #E74F90;
+}
+
+#main {
+    /*background-color: rgba(72, 30, 50, 0.3);*/
+    background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(1, rgba(72, 30, 50, 0)),
+  color-stop(0, rgba(72, 30, 50, 1)));
+}
+h1  {
+    text-decoration: none;
+	font-family: effra, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+  	color: #E74F90;
+    font-size: 20px;
+}
+h2{
+    text-decoration: none;
+	font-family: effra, sans-serif;
+font-weight: 400;
+font-style: normal;
+  	color: #e7552a;
+    font-size: 15px;
+}
+h3{
+    text-decoration: none;
+	font-family: effra, sans-serif;
+font-weight: 600;
+font-style: normal;
+  	color: #481e32;
+    font-size: 15px;
+}
+p{
+     text-decoration: none;
+	font-family: effra, sans-serif;
+font-weight: 400;
+font-style: normal;
+  	color: #481e32;
+    font-size: 12px;
+}
+    .header {
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+padding: 20px 20px 0px 0px;
+  display: block;
+    /*background-color: rgba(255, 255, 255, .5);*/
+        background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(1, rgba(242, 243, 242, 0)),
+  color-stop(0.5, rgba(242, 243, 242, 1)));
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 15px;
+    grid-column-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 15px;
+    grid-column-gap: 20px;
+
+}
+.grid-container a{
+  color: #94bc3e;
+
+}
+#grid-item1 {
+    text-align: center;
+      padding: 20px;
+}
+#grid-item1 img {
+	-webkit-transition: all ease 0s;
+	-moz-transition: all ease 0s;
+	-o-transition: all ease 0s;
+	-ms-transition: all ease 0s;
+	transition: all ease 1s;
+width: 50%;
+height: 50%;
+    display: block;
+    object-fit: contain;
+
+}
+#grid-item1 img:hover {
+	opacity: 0.4;
+}
+
+#grid-item2 {
+    /*background-color: #94bc3e;*/
+    text-align: center;
+      padding: 20px;
+    
+}
+
+
+#grid-item3 {
+    /*background-color: #e74f90;*/
+    text-align: center;
+      padding: 20px;
+}
+
+#grid-item4 {
+    /*background-color: #e7552a;*/
+    text-align: center;
+      padding: 20px;
+}
+
+.header a{
+	text-decoration: none;
+    text-transform: uppercase;
+	font-family: effra, sans-serif;
+font-weight: 700;
+font-style: normal;
+  	color: #94bc3e;
+    	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition: all ease 0.1s;
+	-ms-transition: all ease 0.1s;
+	transition: all ease 0.4s;
+}
+
+.header a:hover {
+  opacity: 0.4;
+}
+
+}
+img {
+  display: block;
+}
+
+.grid-subheading {
+    position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 150px 300px 20px 300px;
+  font-size: 15px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.grid-subheading img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+
+}
+
+.grid-body {
+    position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px 300px 80px 300px;
+  font-size: 15px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.grid-body img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+#grid-item img {
+    padding-top: 30px;
+    display: block;
+    object-fit: scale-down;
+
+}
